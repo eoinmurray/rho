@@ -1,0 +1,25 @@
+{
+  "name": "rho",
+  "version": "0.0.0",
+  "description": "Like git but for simulation state",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "highland": "~1.17.0",
+    "commander": "~2.1.0",
+    "moment": "~2.5.1",
+    "colors": "~0.6.2",
+    "q": "~1.0.0",
+    "underscore": "~1.6.0",
+    "q-io": "~1.11.0",
+    "prompt": "~0.2.12"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "rho": "lib/app.js"
+  }
+}
